@@ -18,6 +18,7 @@
 
 - [O que é o Claude Code?](#o-que-e-o-claude-code)
 - [Documentação](#-documentacao)
+- [Executando localmente](#executando-localmente)
 - [Explore com o servidor MCP](#-explore-com-o-servidor-mcp)
 - [Estrutura de diretórios](#estrutura-de-diretorios)
 - [Arquitetura](#arquitetura)
@@ -62,6 +63,46 @@ Para guias detalhados, veja o diretório [`docs/`](docs/):
 | **[Guia de exploração](docs/exploration-guide.md)** | Como navegar pela base de código — rotas de estudo, padrões de busca e arquivos-chave |
 
 Veja também: [CONTRIBUTING.md](CONTRIBUTING.md) · [README do MCP Server](mcp-server/README.md)
+
+---
+
+
+## Executando localmente
+
+Pré-requisitos:
+
+- [Bun](https://bun.sh) `>= 1.1.0`
+- Git
+
+Passo a passo:
+
+```bash
+# 1) Clonar o repositório
+git clone https://github.com/TaGoat/claude_code_cli.git
+cd claude_code_cli
+
+# 2) Instalar dependências
+bun install
+
+# 3) Build do CLI
+bun run build
+
+# 4) Executar localmente
+bun src/entrypoints/cli.tsx --help
+```
+
+Comandos úteis durante o desenvolvimento:
+
+```bash
+# Verificação completa (lint + typecheck)
+bun run check
+
+# Build em modo watch
+bun run build:watch
+
+# Web app (se necessário)
+bun run build:web
+```
 
 ---
 
