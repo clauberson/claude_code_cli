@@ -18,7 +18,10 @@
     "types": ["node"],
     "baseUrl": ".",
     "paths": {
-      "bun:bundle": ["./src/types/bun-bundle.d.ts"]
+      "bun:bundle": ["./src/types/bun-bundle.d.ts"],
+      "@ant/claude-for-chrome-mcp": ["./mocks/@ant/claude-for-chrome-mcp/index.ts"],
+      "@anthropic-ai/sandbox-runtime": ["./mocks/@anthropic-ai/sandbox-runtime/index.ts"],
+      "color-diff-napi": ["./mocks/color-diff-napi/index.ts"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
