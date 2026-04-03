@@ -1,3 +1,11 @@
+// Define build-time macros for Bun runtime
+if (typeof globalThis.MACRO === 'undefined') {
+  (globalThis as any).MACRO = { VERSION: '0.0.0' };
+}
+if (typeof (globalThis as any).feature === 'undefined') {
+  (globalThis as any).feature = (f: string) => false;
+}
+
 import { feature } from 'bun:bundle';
 
 // Bugfix for corepack auto-pinning, which adds yarnpkg to peoples' package.jsons
