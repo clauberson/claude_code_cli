@@ -13,6 +13,8 @@ declare module 'esbuild' {
       options: { filter: RegExp },
       callback: (args: OnResolveArgs) => OnResolveResult | undefined | null,
     ): void
+
+      onLoad(param: { filter: RegExp }, param2: () => { contents: string; loader: string }): void;
   }
 
   export interface OnResolveArgs {
