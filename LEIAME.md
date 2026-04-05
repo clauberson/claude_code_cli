@@ -50,19 +50,33 @@ Claude Code é uma ferramenta oficial de CLI para interagir com o Claude diretam
 
 ---
 
-## 📚 Documentação
+### Documentação em Português
 
-Para guias detalhados, veja o diretório [`docs/`](docs/):
+Para guias detalhados em português, veja:
 
 | Guia | Descrição |
 |------|-----------|
-| **[Arquitetura](docs/architecture.md)** | Pipeline principal, sequência de inicialização, gerenciamento de estado, renderização e fluxo de dados |
-| **[Referência de ferramentas](docs/tools.md)** | Catálogo completo de ~40 ferramentas do agente, com categorias e modelo de permissões |
-| **[Referência de comandos](docs/commands.md)** | Todos os ~85 comandos slash organizados por categoria |
-| **[Guia de subsistemas](docs/subsystems.md)** | Detalhes de Bridge, MCP, Permissões, Plugins, Skills, Tasks, Memory e Voice |
-| **[Guia de exploração](docs/exploration-guide.md)** | Como navegar pela base de código — rotas de estudo, padrões de busca e arquivos-chave |
+| **[Arquitetura](docs/arquitetura.md)** | Pipeline principal, sequência de inicialização, gerenciamento de estado, renderização e fluxo de dados |
+| **[Referência de ferramentas](docs/ferramentas.md)** | Catálogo completo de ~40 ferramentas do agente, com categorias e modelo de permissões |
+| **[Referência de comandos](docs/comandos.md)** | Todos os comandos slash organizados por categoria |
+| **[Guia de subsistemas](docs/subsistemas.md)** | Detalhes de Bridge, MCP, Permissões, Plugins, Skills, Tasks, Memory e Voice |
+| **[Guia de exploração](docs/guia-exploracao.md)** | Como navegar pela base de código — rotas de estudo, padrões de busca e arquivos-chave |
 
-Veja também: [CONTRIBUTING.md](CONTRIBUTING.md) · [README do MCP Server](mcp-server/README.md)
+---
+
+## 📚 Documentação (Original em Inglês)
+
+Para a documentação original, veja o diretório [`docs/`](docs/):
+
+| Guia | Descrição |
+|------|-----------|
+| **[Architecture](docs/architecture.md)** | Main pipeline, startup sequence, state management, rendering, and data flow |
+| **[Tools Reference](docs/tools.md)** | Complete catalog of ~40 agent tools, categories, and permission model |
+| **[Commands Reference](docs/commands.md)** | All ~85 slash commands organized by category |
+| **[Subsystems Guide](docs/subsystems.md)** | Details on Bridge, MCP, Permissions, Plugins, Skills, Tasks, Memory, and Voice |
+| **[Exploration Guide](docs/exploration-guide.md)** | How to navigate the codebase — study routes, search patterns, and key files |
+
+Veja também: [CONTRIBUINDO.md](CONTRIBUINDO.md) · [README do MCP Server](mcp-server/README.md)
 
 ---
 
@@ -249,7 +263,7 @@ Este repositório inclui suporte a `gitpretty-apply.sh` para workflows de patch 
 
 ## Contribuindo
 
-Consulte [CONTRIBUTING.md](CONTRIBUTING.md) para ambiente de desenvolvimento, convenções e processo de contribuição.
+Consulte [CONTRIBUINDO.md](CONTRIBUINDO.md) para ambiente de desenvolvimento, convenções e processo de contribuição.
 
 ---
 
